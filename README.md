@@ -6,17 +6,8 @@ The project is fully developed in Kotlin
 
 ## Applied patterns:
 
-Clean Architecture
-Model View Presenter
-Dependency Injection
-Repository
+Clean Architecture, Model View Presenter, Dependency Injection, Repository
 
 ## Frameworks
 
-RxJava 2
-Dagger 2
-Retrofit
-OkHttp
-Picasso
-Room
-RoomAsset
+RxJava 2, Dagger 2, Retrofit, OkHttp, Picasso, Room, RoomAsset
