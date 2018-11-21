@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AsosCodeTest</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search text...</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="minutes">minutes</string>
+    <string name="instructions">Instructions</string>
+
+    <string name="recipe_image_transition">recipeImageTransition</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="complexity_filter">
+        <item>All complexities</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+    <string-array name="time_filter">
+        <item>All times</item>
+        <item>0-10min</item>
+        <item>10-20min</item>
+        <item>20+min</item>
+    </string-array>
+</resources>
