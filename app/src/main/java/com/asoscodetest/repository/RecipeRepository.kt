@@ -9,7 +9,6 @@ import com.asoscodetest.retrofit.RecipeApi
 import com.asoscodetest.util.Constants
 import io.reactivex.Single
 import io.reactivex.schedulers.Schedulers
-import retrofit2.Retrofit
 import javax.inject.Inject
 
 /**
@@ -17,11 +16,10 @@ import javax.inject.Inject
  */
 class RecipeRepository
 @Inject
-constructor(retrofit: Retrofit, recipeDao: RecipeDao, recipeListExpirationDao: RecipeListExpirationDao) : RecipeApi {
+constructor(val recipeApi: RecipeApi, recipeDao: RecipeDao, recipeListExpirationDao: RecipeListExpirationDao) : RecipeApi {
 
     private val TAG = javaClass.simpleName
 
-    private val recipeApi: RecipeApi by lazy { retrofit.create(RecipeApi::class.java) }
     private val cacheRecipeDao = recipeDao
     private val expirationRecipeDao = recipeListExpirationDao
 
